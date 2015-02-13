@@ -1,0 +1,14 @@
+#Pagecenter { width:850px; float:left;}
+#Pagecenter .topImg {width: 850px; height: 200px; position: relative; float: left}
+#Pagecenter .topImg span {width: auto; height: 50px; background: #cd3333; position: absolute; right: 20px; bottom: 10px; font-size: 16px; color: #fff; line-height: 50px; padding: 0 20px 0 20px}
+
+#Pagecenter .aboutText {width: 850px; height: auto; float: left}
+#Pagecenter .aboutText a {color: #444}
+#Pagecenter .aboutText span {padding: 10px 0 10px 0; float: left;}
+#Pagecenter .uyeImg {width: 180px; height: 240px; float: left; position: relative; margin: 25px 22px 0 0 }
+#Pagecenter .uyeImg:nth-child(4n+4) {margin-right: 0px}
+#Pagecenter .zoom img {position: absolute; left: 0px; top: 0px; z-index: 1;}
+#Pagecenter .uyeImg  span {width: 100%; height: 31px; position: absolute; bottom: 0px; left: 0px; text-align: center; padding-top: 15px; line-height: 35px; z-index: 10;}
+#Pagecenter .zoom {width:180px; height:200px; cursor: pointer; display:block; position:absolute; left: 0px; top: 0px; overflow:hidden; z-index: 1; background:#fff url(../images/loader.gif) no-repeat center;}
+#Pagecenter .zoomOverlay { position:absolute; width: 180px; height: 200px; top:0px; z-index: 5; left:0px; bottom:0; right:0; display:none; background-image:url(../images/zoom.png); background-repeat:no-repeat;background-position:center;}
+

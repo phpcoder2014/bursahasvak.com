@@ -1,0 +1,13 @@
+#Pagecenter { width:850px; float:left;}
+#Pagecenter .topImg {width: 850px; height: 200px; position: relative; float: left}
+#Pagecenter .topImg span {width: auto; height: 50px; background: #cd3333; position: absolute; right: 20px; bottom: 20px; font-size: 16px; color: #fff; line-height: 50px; padding: 0 20px 0 20px}
+
+#Pagecenter .aboutText {width: 840px; height: auto; float: left}
+#Pagecenter .aboutText img {width: 70px; height: 70px;float: left;}
+#Pagecenter .aboutText .duyuru {width: 830px; height: 75px; float: left; border-bottom: 1px solid #c1c1c1; padding: 10px;}
+#Pagecenter .aboutText .duyuru:hover {background: #f9f9f9; cursor: pointer;}
+#Pagecenter .aboutText .duyuru .megaphoneIcon {width: 40px; height: 40px; margin-top: 15px; float: left; background: url(../images/mega.png)}
+#Pagecenter .aboutText .duyuru .duyuruText {width: 740px; float: right}
+#Pagecenter .aboutText .duyuru span:first-child {width: auto; height: 30px; float: left; font-size: 18px; color: #444; line-height: 30px;}
+#Pagecenter .aboutText .duyuru span.date {width: auto; height: 30px; float: left; font: 400 13px Arial,sans-serif; line-height: 30px;  margin-left: 15px; color: #d8d8d8}
+#Pagecenter .aboutText .duyuru span:last-child {width: auto; height: 40px; float: left; font-size: 14px; color: #8c8c8c}

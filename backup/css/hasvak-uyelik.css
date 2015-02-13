@@ -1,0 +1,144 @@
+#Pagecenter { width:850px; float:left;}
+#Pagecenter .topImg {width: 850px; height: 200px; position: relative; float: left}
+#Pagecenter .topImg span {width: auto; height: 50px; background: #cd3333; position: absolute; right: 20px; bottom: 20px; font-size: 16px; color: #fff; line-height: 50px; padding: 0 20px 0 20px}
+
+#Pagecenter .aboutText {width: 850px; margin-top: 20px; height: auto; float: left}
+
+
+.aboutText .conLeft {
+	width: 370px;
+	height: auto;
+	float: left;
+}
+.aboutText .conLeft .iltsmBilgi {
+	width: 330px;
+	height: auto;
+	float: left;
+}
+.aboutText .conLeft .iltsmBilgi p {
+	width: 100%;
+	height: 40px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+	line-height: 30px;
+	color: #cd3333;
+}
+.aboutText .conLeft .iltsmBilgi span{
+	font-size: 14px;
+	color:  #444
+}
+.aboutText .conRight {
+	width: 465px;
+	height: auto;
+	float: right;
+}
+.aboutText .conRight span {
+	width: 100%;
+	height: 50px;
+	float: left;
+	font-size: 25px;
+	color: #cd3333;
+	line-height: 30px;
+}
+.aboutText .conRight table td {
+	padding: 5px;
+	font-size: 16px;
+}
+.aboutText .conRight table td .fileButton {
+	width: 300px;
+	height: 80px;
+	float: left;
+	margin:10px 0 0 15px;
+}
+.aboutText .conRight table td  img {
+	float: left
+}
+.aboutText .conRight table td .fileButton span {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-size: 20px;
+	color: #444;
+}
+.aboutText .conRight table td input[type="text"] {
+	width: 265px;
+	height: auto;
+	float: left;
+	border: 1px solid #c9c9c9;
+	font: 400 15px 'Oxygen',sans-serif;
+	color: #444;
+	padding: 10px;
+	outline: none;
+}
+.aboutText .conRight table td input[type="button"] {
+	width: auto;
+	padding: 10px 20px;
+	font-size: 16px;
+	background: #cd3333;
+	color: #fff;
+	border: 0px;
+	font-family: 'Oxygen';
+}
+.aboutText .conRight table td input[type="button"]:hover {
+	background: #1399ef;
+	cursor: pointer;
+}
+.file-upload {
+	overflow: hidden;
+	display: inline-block;
+	position: relative;	
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	background: #39b54a;
+    }
+
+.file-upload:hover { 
+	background: #49ca5b; 
+	}
+
+.file-upload input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	font-size: 70px;
+	color: #fff;
+	/* Loses tab index in webkit if width is set to 0 */
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
+
+
+.file-upload strong { 
+	font: 300 16px 'Oxygen',sans-serif; 
+	line-height: 40px;
+	color: #fff;
+	}
+	
+	
+.file-upload span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	}
+
+/* Adjust the button size */	
+.file-upload { height: 40px; }
+.file-upload,
+.file-upload span {	width: 80px;  }	
+	
+
+.file-upload-status {
+	margin-left: 10px;
+	vertical-align: middle;
+	padding: 7px 11px;
+	font-weight: bold;	
+	font-size: 16px;
+	color: #888;
+	background: #f8f8f8;
+	border: 3px solid #ddd;
+	}

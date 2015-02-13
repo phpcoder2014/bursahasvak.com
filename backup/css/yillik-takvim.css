@@ -1,0 +1,26 @@
+#Pagecenter { width:850px; float:left;}
+#Pagecenter .topImg {width: 850px; height: 200px; position: relative; float: left}
+#Pagecenter .topImg span {width: auto; height: 50px; background: #cd3333; position: absolute; right: 20px; bottom: 20px; font-size: 16px; color: #fff; line-height: 50px; padding: 0 20px 0 20px}
+
+#Pagecenter .aboutText {width: 850px; height: auto; float: left}
+#Pagecenter .aboutText table {
+	width: 850px;
+	height: auto;
+	float: left;
+	border: 0px;
+	margin-top: 20px;
+	border-bottom: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+}
+#Pagecenter .aboutText table td.mon {
+	background: #fbfbfb;
+	text-align: center
+}
+#Pagecenter .aboutText table td {
+	padding: 7px;
+	border-right: 1px solid #e7e7e7;
+	border-top: 1px solid #e7e7e7;
+}
+#Pagecenter .aboutText table td:first-child {
+	text-align: center
+}

@@ -1,0 +1,70 @@
+#Pagecenter { width:850px; float:left;}
+#Pagecenter .topImg {width: 850px; height: 200px; position: relative; float: left}
+#Pagecenter .topImg span {width: auto; height: 50px; background: #cd3333; position: absolute; right: 20px; bottom: 20px; font-size: 16px; color: #fff; line-height: 50px; padding: 0 20px 0 20px}
+
+#Pagecenter .aboutText {width: 850px; margin-top: 20px; height: auto; float: left}
+#Pagecenter .aboutText img {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+#Pagecenter .aboutText span {
+	font-size: 15px;
+	color: #444
+}
+#Pagecenter .aboutText span p {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+	margin-bottom: 20px;
+	color: #cd3333
+}
+#Pagecenter .aboutText .digerEtkin {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 50px;
+}
+#Pagecenter .aboutText .digerEtkin .head {
+	width: 100%;
+	height: 50px;
+	background: #e20a17;
+}
+#Pagecenter .aboutText .digerEtkin .dgrEtknlk {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url(../images/dgretkl.png) #ca0d19 no-repeat
+}
+#Pagecenter .aboutText .digerEtkin .head span h1 {
+	float: left;
+	height: 50px;
+	color: #fff;
+	font: 400 24px 'Oxygen',sans-serif;
+	line-height: 50px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 10px;
+}
+#Pagecenter .aboutText .digerItems {
+	width: 100%;
+	height: auto;
+	float: left;
+	padding-top: 15px;
+}
+#Pagecenter .aboutText .digerItems a {
+	width: 415px;
+	height: 30px;
+	float: left;
+	font: 400 14px 'Oxygen',sans-serif;
+	color: #444;
+	line-height: 30px;
+	margin-right: 20px;
+	white-space: pre;
+}
+#Pagecenter .aboutText .digerItems a:hover {
+	text-decoration: underline;
+}
+#Pagecenter .aboutText .digerItems a:nth-child(2n+2) {
+	margin: 0px;
+}
